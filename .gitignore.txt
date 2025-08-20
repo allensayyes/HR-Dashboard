@@ -1,5 +1,41 @@
-.venv/
+# Byte-compiled / cache
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE / editor
+.vscode/
 .idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & logs
+*.db
+*.sqlite3
+*.log
+logs/
+
+# Models & checkpoints
+*.pkl
+*.joblib
+*.sav
+models/
+
+# Streamlit / cache
+.streamlit/
+.cache/
+
+# Notebooks
+*.ipynb_checkpoints
+
+# Secrets
+.env
+*.key
+*.json
